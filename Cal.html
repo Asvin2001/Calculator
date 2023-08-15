@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cal.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row 5">
+            <div class="col-12 d-flex justify-content-center text-center">
+
+               <div class="calculator bg-warning p-5 rounded-5 mt-3  ">
+
+                <h1 class="m-4 text-danger">Calculator</h1>
+                <input type="" class="form-control" id="inpu" placeholder="0"><br>
+                <button onclick="cle()" class="btn btn-danger ">AC</button>
+                <button onclick="bak()" class="btn btn-danger">C</button>
+                <button onclick="display('.')" class="btn  btn-danger">.</button>
+                <button onclick="display('/')" class="btn btn-danger">/</button>
+                <button onclick="display('+')" class="btn btn-danger">+</button><br>
+                <button onclick="display('1')" class="btn btn-danger">1</button>
+
+                <button onclick="display('2')" class="btn btn-danger">2</button>
+                <button onclick="display('3')" class="btn btn-danger">3</button>
+                <button onclick="display('4')" class="btn btn-danger">4</button>
+
+                <button onclick="display('-')" class="btn btn-danger">-</button><br>
+                <button onclick="display('5')" class="btn btn-danger">5</button>
+                <button onclick="display('6')" class="btn btn-danger">6</button>
+                <button onclick="display('7')" class="btn btn-danger">7</button>
+                <button onclick="display('8')" class="btn btn-danger">8</button>
+                <button onclick="display('*')" class="btn btn-danger">*</button><br>
+                <button onclick="display('9')" class="btn btn-danger">9</button>
+                <button onclick="display('0')" class="btn btn-danger">0</button>
+                <button onclick="equal()" class="btn btn-danger erl">=</button>
+              
+
+               </div>
+
+            </div>
+        </div>
+    </div>
+    
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="cal.js"></script>
+
+</body>
+</html>

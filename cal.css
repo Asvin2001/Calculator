@@ -1,0 +1,41 @@
+.btn{
+    width: 46px;
+    height: 50px;
+    margin: 1px;
+    
+    
+}
+.erl{
+    width: 150px;
+}
+.calculator{
+    animation-name: shad;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes shad{
+    0%{
+        border: 5px solid red;
+    }
+    20%{
+        border: 5px solid rgb(76, 1, 87);
+    }
+    40%{
+        border: 5px solid rgb(9, 93, 34);
+    }
+    60%{
+        border: 5px solid rgb(1, 130, 128);
+    }
+    80%{
+        border: 5px solid rgb(43, 0, 255);
+    }
+    100%{
+        border: 5px solid rgb(174, 0, 124);
+    }
+   
+
+
+}
